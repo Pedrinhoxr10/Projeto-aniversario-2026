@@ -3281,14 +3281,14 @@ function showQuizResult() {
   document.getElementById('quiz-result-title').textContent = `Você acertou ${quizScore} de ${total}!`;
 
   let msg;
-  if (pct === 1) msg = 'Vocês são sincronizados igual um passe de vôlei perfeito 🏐💜';
+  if (pct === 1) msg = '100%! A gente tá tão sincronizado que até parece telepatia! ✨❤️';
   else if (pct >= 0.7) msg = 'Quase tudo! Só faltou aquele detalhezinho...';
-  else if (pct >= 0.4) msg = 'Ainda bem que tem coisa nova pra descobrir juntos 💛';
-  else msg = 'Bom, pelo menos agora você já sabe o que perguntar pra ela depois 😅';
+  else if (pct >= 0.4) msg = 'Passou de ano na média! Mas acho que vou ter que te dar umas aulas particulares... 👀❤️';
+  else msg = 'Ih... errou mais que o Flamengo em pênalti na final contra o PSG (drogaa)! Mas relaxa, o prêmio de meu amor ainda é seu 😂❤️';
   document.getElementById('quiz-result-text').textContent = msg;
 
   document.getElementById('quiz-bonus-text').textContent =
-    `Na pergunta bônus, você escolheu: "${quizBonusAnswer}". Essa não tem resposta certa, mas confio na sua resposta kkkkkk 💛`;
+    `Na pergunta bônus, você escolheu: "${quizBonusAnswer}". Essa não tem resposta certa, mas confio na sua resposta kkkkkk 🤍`;
 }
 
 /* ══════════════════════════
